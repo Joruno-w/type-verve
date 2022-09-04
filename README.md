@@ -1,6 +1,5 @@
-# type-verve
 <p align='center'>
-  <img src='./screenshot/logo.svg' width='400'/>
+  <img src='./screenshot/logo.jpg' width='400'/>
 </p>
 <p align='center'>Collection of TypeScript with plentiful advanced type</p>
 
