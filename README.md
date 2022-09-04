@@ -1,8 +1,8 @@
 # type-verve
 
-> Collection of TypeScript with plentiful advanced type
+> A collection of essential TypeScript types
 
-[![NPM version](https://img.shields.io/badge/npm-v1.0.3-red)](https://www.npmjs.com/package/pkg-name)
+[![NPM version](https://img.shields.io/badge/npm-v1.0.4-red)](https://www.npmjs.com/package/pkg-name)
 
 ## License
 
