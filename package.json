@@ -1,7 +1,7 @@
 {
   "name": "type-verve",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.9.5",
   "description": "",
   "author": "Joruno-w <1710642275@qq.com>",
@@ -12,18 +12,20 @@
     "url": "git+https://github.com/Joruno-w/type-verve.git"
   },
   "bugs": "https://github.com/Joruno-w/type-verve/issues",
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "ts",
+    "types",
+    "utility",
+    "util",
+    "utilities",
+    "omit",
+    "merge",
+    "json",
+    "generics"
+  ],
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
@@ -33,7 +35,8 @@
     }
   },
   "files": [
-    "dist"
+    "index.d.ts",
+    "source"
   ],
   "scripts": {
     "build": "unbuild",
@@ -42,20 +45,33 @@
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
-    "test": "vitest",
+    "test": "xo && tsd && tsc && node scripts/test/source-files-extension.js",
     "pub": "npm publish"
   },
   "devDependencies": {
+    "@joruno/tsconfig": "0.0.2",
     "@types/node": "^18.7.5",
     "bumpp": "^8.2.1",
     "eslint": "^8.22.0",
     "esno": "^0.16.3",
-    "pnpm": "^7.9.0",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.7.4",
-    "unbuild": "^0.8.8",
-    "urpm": "^0.0.4",
-    "vite": "^3.0.7",
-    "vitest": "^0.22.0"
+    "expect-type": "^0.13.0",
+    "pnpm": "^7.10.0",
+    "tsd": "^0.23.0",
+    "typescript": "^4.8.2",
+    "xo": "0.52.2"
+  },
+  "xo": {
+    "ignores": [
+      "test/**/*"
+    ],
+    "rules": {
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/ban-types": "off",
+      "@typescript-eslint/naming-convention": "off",
+      "import/extensions": "off",
+      "@typescript-eslint/no-redeclare": "off",
+      "@typescript-eslint/no-confusing-void-expression": "off",
+      "@typescript-eslint/no-redundant-type-constituents": "off"
+    }
   }
 }
