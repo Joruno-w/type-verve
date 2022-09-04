@@ -1,5 +1,8 @@
 # type-verve
-include plentiful advanced types
+<p align='center'>
+  <img src='./screenshot/logo.svg' width='400'/>
+</p>
+<p align='center'>Collection of TypeScript with plentiful advanced type</p>
 
 [![NPM version](https://img.shields.io/badge/npm-v1.0.0-red)](https://www.npmjs.com/package/pkg-name)
 
