@@ -1,7 +1,7 @@
 {
   "name": "type-verve",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "packageManager": "pnpm@7.9.5",
   "description": "A collection of essential TypeScript types",
   "author": "Joruno-w <1710642275@qq.com>",
