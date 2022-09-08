@@ -7,7 +7,7 @@ This is useful when you want to create an API whose behavior depends on the pres
 
 @example
 ```
-import type {HasRequiredKeys} from 'type-fest';
+import type {HasRequiredKeys} from 'type-verve';
 
 type GeneratorOptions<Template extends object> = {
 	prop1: number;

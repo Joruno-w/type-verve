@@ -36,7 +36,7 @@ type Keyed = {} extends Record<'foo' | 'bar', unknown>
 Using a [mapped type](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#further-exploration), you can then check for each `KeyType` of `ObjectType`...
 
 ```
-import type {OmitIndexSignature} from 'type-fest';
+import type {OmitIndexSignature} from 'type-verve';
 
 type OmitIndexSignature<ObjectType> = {
 	[KeyType in keyof ObjectType // Map each key of `ObjectType`...
@@ -47,7 +47,7 @@ type OmitIndexSignature<ObjectType> = {
 ...whether an empty object (`{}`) would be assignable to an object with that `KeyType` (`Record<KeyType, unknown>`)...
 
 ```
-import type {OmitIndexSignature} from 'type-fest';
+import type {OmitIndexSignature} from 'type-verve';
 
 type OmitIndexSignature<ObjectType> = {
 	[KeyType in keyof ObjectType
@@ -62,7 +62,7 @@ type OmitIndexSignature<ObjectType> = {
 If `{}` is assignable, it means that `KeyType` is an index signature and we want to remove it. If it is not assignable, `KeyType` is a "real" key and we want to keep it.
 
 ```
-import type {OmitIndexSignature} from 'type-fest';
+import type {OmitIndexSignature} from 'type-verve';
 
 type OmitIndexSignature<ObjectType> = {
 	[KeyType in keyof ObjectType
@@ -75,7 +75,7 @@ type OmitIndexSignature<ObjectType> = {
 
 @example
 ```
-import type {OmitIndexSignature} from 'type-fest';
+import type {OmitIndexSignature} from 'type-verve';
 
 interface Example {
 	// These index signatures will be removed.

@@ -5,7 +5,7 @@ Converts a string literal to pascal-case.
 
 @example
 ```
-import type {PascalCase} from 'type-fest';
+import type {PascalCase} from 'type-verve';
 
 // Simple
 

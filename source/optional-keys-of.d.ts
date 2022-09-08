@@ -5,7 +5,7 @@ This is useful when you want to create a new type that contains different type v
 
 @example
 ```
-import type {OptionalKeysOf, Except} from 'type-fest';
+import type {OptionalKeysOf, Except} from 'type-verve';
 
 interface User {
 	name: string;

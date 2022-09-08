@@ -25,7 +25,7 @@ Mimic the type inferred by TypeScript when merging two objects or two arrays/tup
 
 @example
 ```
-import type {Spread} from 'type-fest';
+import type {Spread} from 'type-verve';
 
 type Foo = {
 	a: number;
@@ -57,7 +57,7 @@ baz(fooBar);
 
 @example
 ```
-import type {Spread} from 'type-fest';
+import type {Spread} from 'type-verve';
 
 const foo = [1, 2, 3];
 const bar = ['4', '5', '6'];

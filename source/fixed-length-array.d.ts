@@ -17,7 +17,7 @@ Note: This type does not prevent out-of-bounds access. Prefer `ReadonlyTuple` un
 
 @example
 ```
-import type {FixedLengthArray} from 'type-fest';
+import type {FixedLengthArray} from 'type-verve';
 
 type FencingTeam = FixedLengthArray<string, 3>;
 

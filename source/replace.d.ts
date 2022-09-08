@@ -12,7 +12,7 @@ Use-case:
 
 @example
 ```
-import {Replace} from 'type-fest';
+import {Replace} from 'type-verve';
 
 declare function replace<
 	Input extends string,

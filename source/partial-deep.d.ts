@@ -21,7 +21,7 @@ Use-cases:
 
 @example
 ```
-import type {PartialDeep} from 'type-fest';
+import type {PartialDeep} from 'type-verve';
 
 const settings: Settings = {
 	textEditor: {
@@ -43,7 +43,7 @@ settings = applySavedSettings({textEditor: {fontWeight: 500}});
 By default, this does not affect elements in array and tuple types. You can change this by passing `{recurseIntoArrays: true}` as the second type argument:
 
 ```
-import type {PartialDeep} from 'type-fest';
+import type {PartialDeep} from 'type-verve';
 
 interface Settings {
 	languages: string[];

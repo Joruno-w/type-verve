@@ -148,7 +148,7 @@ Use-case: Retrieve a property from deep inside an API response or some other com
 
 @example
 ```
-import type {Get} from 'type-fest';
+import type {Get} from 'type-verve';
 import * as lodash from 'lodash';
 
 const get = <BaseType, Path extends string | readonly string[]>(object: BaseType, path: Path): Get<BaseType, Path> =>

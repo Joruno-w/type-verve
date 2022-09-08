@@ -8,7 +8,7 @@ Use-cases:
 
 @example
 ```
-import type {Schema} from 'type-fest';
+import type {Schema} from 'type-verve';
 
 interface User {
 	id: string;

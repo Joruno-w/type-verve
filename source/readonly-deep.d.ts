@@ -15,7 +15,7 @@ Please upvote [this issue](https://github.com/microsoft/TypeScript/issues/13923)
 }
 
 // main.ts
-import type {ReadonlyDeep} from 'type-fest';
+import type {ReadonlyDeep} from 'type-verve';
 import dataJson = require('./data.json');
 
 const data: ReadonlyDeep<typeof dataJson> = dataJson;

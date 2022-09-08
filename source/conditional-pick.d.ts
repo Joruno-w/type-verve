@@ -7,7 +7,7 @@ This is useful when you want to create a new type from a specific subset of an e
 
 @example
 ```
-import type {Primitive, ConditionalPick} from 'type-fest';
+import type {Primitive, ConditionalPick} from 'type-verve';
 
 class Awesome {
 	name: string;
@@ -23,7 +23,7 @@ type PickPrimitivesFromAwesome = ConditionalPick<Awesome, Primitive>;
 
 @example
 ```
-import type {ConditionalPick} from 'type-fest';
+import type {ConditionalPick} from 'type-verve';
 
 interface Example {
 	a: string;

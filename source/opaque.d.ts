@@ -18,7 +18,7 @@ There have been several discussions about adding this feature to TypeScript via 
 
 @example
 ```
-import type {Opaque} from 'type-fest';
+import type {Opaque} from 'type-verve';
 
 type AccountNumber = Opaque<number, 'AccountNumber'>;
 type AccountBalance = Opaque<number, 'AccountBalance'>;
@@ -83,7 +83,7 @@ Why is this necessary?
 
 @example
 ```
-import type {Opaque, UnwrapOpaque} from 'type-fest';
+import type {Opaque, UnwrapOpaque} from 'type-verve';
 
 type AccountType = Opaque<'SAVINGS' | 'CHECKING', 'AccountType'>;
 

@@ -8,7 +8,7 @@ This is useful when you want to create a new type with a specific set of keys fr
 
 @example
 ```
-import type {Primitive, ConditionalExcept} from 'type-fest';
+import type {Primitive, ConditionalExcept} from 'type-verve';
 
 class Awesome {
 	name: string;
@@ -24,7 +24,7 @@ type ExceptPrimitivesFromAwesome = ConditionalExcept<Awesome, Primitive>;
 
 @example
 ```
-import type {ConditionalExcept} from 'type-fest';
+import type {ConditionalExcept} from 'type-verve';
 
 interface Example {
 	a: string;

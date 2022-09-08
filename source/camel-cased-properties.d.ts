@@ -10,7 +10,7 @@ This can be useful when, for example, converting some API types from a different
 
 @example
 ```
-import type {CamelCasedProperties} from 'type-fest';
+import type {CamelCasedProperties} from 'type-verve';
 
 interface User {
 	UserId: number;

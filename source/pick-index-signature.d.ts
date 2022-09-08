@@ -7,7 +7,7 @@ When you use a type that will iterate through an object that has indexed keys an
 
 @example
 ```
-import type {PickIndexSignature} from 'type-fest';
+import type {PickIndexSignature} from 'type-verve';
 
 declare const symbolKey: unique symbol;
 
@@ -44,7 +44,7 @@ type ExampleIndexSignature = PickIndexSignature<Example>;
 
 @example
 ```
-import type {OmitIndexSignature, PickIndexSignature, Simplify} from 'type-fest';
+import type {OmitIndexSignature, PickIndexSignature, Simplify} from 'type-verve';
 
 type Foo = {
 	[x: string]: string;

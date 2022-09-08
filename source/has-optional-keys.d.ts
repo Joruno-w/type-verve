@@ -7,7 +7,7 @@ This is useful when you want to create an API whose behavior depends on the pres
 
 @example
 ```
-import type {HasOptionalKeys, OptionalKeysOf} from 'type-fest';
+import type {HasOptionalKeys, OptionalKeysOf} from 'type-verve';
 
 type UpdateService<Entity extends object> = {
 	removeField: HasOptionalKeys<Entity> extends true

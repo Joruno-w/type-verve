@@ -5,7 +5,7 @@ Internally this is used for the `ConditionalPick` and `ConditionalExcept` types.
 
 @example
 ```
-import type {ConditionalKeys} from 'type-fest';
+import type {ConditionalKeys} from 'type-verve';
 
 interface Example {
 	a: string;
@@ -22,7 +22,7 @@ To support partial types, make sure your `Condition` is a union of undefined (fo
 
 @example
 ```
-import type {ConditionalKeys} from 'type-fest';
+import type {ConditionalKeys} from 'type-verve';
 
 type StringKeysAndUndefined = ConditionalKeys<Example, string | undefined>;
 //=> 'a' | 'c'

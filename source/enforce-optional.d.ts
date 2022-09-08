@@ -19,7 +19,7 @@ Enforce optional keys (by adding the `?` operator) for keys that have a union wi
 
 @example
 ```
-import type {Merge} from 'type-fest';
+import type {Merge} from 'type-verve';
 
 type Foo = {
 	a: string;

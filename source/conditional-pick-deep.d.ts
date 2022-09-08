@@ -38,7 +38,7 @@ Pick keys recursively from the shape that matches the given condition.
 
 @example
 ```
-import type {ConditionalPickDeep} from 'type-fest';
+import type {ConditionalPickDeep} from 'type-verve';
 
 interface Example {
 	a: string;

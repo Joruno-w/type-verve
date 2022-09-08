@@ -38,7 +38,7 @@ This type was proposed to the TypeScript team, which declined it, saying they pr
 
 @example
 ```
-import type {Except} from 'type-fest';
+import type {Except} from 'type-verve';
 
 type Foo = {
 	a: number;

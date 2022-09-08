@@ -50,7 +50,7 @@ Having `Exact` allows TypeScript to reject excess properties.
 
 @example
 ```
-import {Exact} from 'type-fest';
+import {Exact} from 'type-verve';
 
 type OnlyAcceptName = {name: string};
 

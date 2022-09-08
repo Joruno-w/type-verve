@@ -1,6 +1,6 @@
 import type {UpperCaseCharacters, WordSeparators} from './internal.js';
 
-// Transforms a string that is fully uppercase into a fully lowercase version. Needed to add support for SCREMAING_SNAKE_CASE, see https://github.com/sindresorhus/type-fest/issues/385
+// Transforms a string that is fully uppercase into a fully lowercase version. Needed to add support for SCREMAING_SNAKE_CASE, see https://github.com/sindresorhus/type-verve/issues/385
 type UpperCaseToLowerCase<T extends string> = T extends Uppercase<T> ? Lowercase<T> : T;
 
 // This implemntation does not supports SCREMAING_SNAKE_CASE, it used internaly by `SplitIncludingDelimiters`.
@@ -60,7 +60,7 @@ This can be useful when, for example, converting a camel-cased object property t
 
 @example
 ```
-import type {DelimiterCase} from 'type-fest';
+import type {DelimiterCase} from 'type-verve';
 
 // Simple
 

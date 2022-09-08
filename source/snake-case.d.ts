@@ -7,7 +7,7 @@ This can be useful when, for example, converting a camel-cased object property t
 
 @example
 ```
-import type {SnakeCase} from 'type-fest';
+import type {SnakeCase} from 'type-verve';
 
 // Simple
 

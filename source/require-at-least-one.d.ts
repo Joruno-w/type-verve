@@ -5,7 +5,7 @@ Create a type that requires at least one of the given keys. The remaining keys a
 
 @example
 ```
-import type {RequireAtLeastOne} from 'type-fest';
+import type {RequireAtLeastOne} from 'type-verve';
 
 type Responder = {
 	text?: () => string;

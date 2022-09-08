@@ -36,7 +36,7 @@ This can be useful when, for example, converting some kebab-cased command-line f
 
 @example
 ```
-import type {CamelCase} from 'type-fest';
+import type {CamelCase} from 'type-verve';
 
 // Simple
 

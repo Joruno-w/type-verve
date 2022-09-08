@@ -8,7 +8,7 @@ This can be used to [store and mutate options within a class](https://github.com
 
 @example
 ```
-import type {Writable} from 'type-fest';
+import type {Writable} from 'type-verve';
 
 type Foo = {
 	readonly a: number;

@@ -13,7 +13,7 @@ Use-cases:
 
 @example
 ```
-import type {MultidimensionalReadonlyArray} from 'type-fest';
+import type {MultidimensionalReadonlyArray} from 'type-verve';
 
 function emptyMatrix<T extends number>(dimensions: T): MultidimensionalReadonlyArray<unknown, T> {
 	const matrix: unknown[] = [];

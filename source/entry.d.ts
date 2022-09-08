@@ -15,7 +15,7 @@ For example the {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 
 @example
 ```
-import type {Entry} from 'type-fest';
+import type {Entry} from 'type-verve';
 
 interface Example {
 	someKey: number;

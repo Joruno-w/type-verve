@@ -8,7 +8,7 @@ Use-case: You want to define a single model where the only thing that changes is
 
 @example
 ```
-import type {SetNonNullable} from 'type-fest';
+import type {SetNonNullable} from 'type-verve';
 
 type Foo = {
 	a: number;

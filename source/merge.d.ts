@@ -7,7 +7,7 @@ Merge two types into a new type. Keys of the second type overrides keys of the f
 
 @example
 ```
-import type {Merge} from 'type-fest';
+import type {Merge} from 'type-verve';
 
 interface Foo {
 	[x: string]: unknown;

@@ -7,7 +7,7 @@ There has been [discussion](https://github.com/microsoft/TypeScript/pull/35998) 
 
 @example
 ```ts
-import type {AsyncReturnType} from 'type-fest';
+import type {AsyncReturnType} from 'type-verve';
 import {asyncFunction} from 'api';
 
 // This type resolves to the unwrapped return type of `asyncFunction`.

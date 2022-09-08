@@ -9,7 +9,7 @@ Use-case:
 
 @example
 ```
-import type {InvariantOf} from 'type-fest';
+import type {InvariantOf} from 'type-verve';
 
 class Animal {
 	constructor(public name: string){}
@@ -34,7 +34,7 @@ invariantAnimalArray = invariantCatArray; // Error: Type 'InvariantOf<Cat>[]' is
 
 @example
 ```
-import type {InvariantOf} from 'type-fest';
+import type {InvariantOf} from 'type-verve';
 
 // In covariance (default)
 

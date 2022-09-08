@@ -7,7 +7,7 @@ Use-case: You have two functions, one synchronous and one asynchronous that do t
 
 @example
 ```
-import type {Asyncify} from 'type-fest';
+import type {Asyncify} from 'type-verve';
 
 // Synchronous function.
 function getFooSync(someArg: SomeType): Foo {

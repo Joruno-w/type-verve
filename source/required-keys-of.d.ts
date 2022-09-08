@@ -5,7 +5,7 @@ This is useful when you want to create a new type that contains different type v
 
 @example
 ```
-import type {RequiredKeysOf} from 'type-fest';
+import type {RequiredKeysOf} from 'type-verve';
 
 declare function createValidation<Entity extends object, Key extends RequiredKeysOf<Entity> = RequiredKeysOf<Entity>>(field: Key, validator: (value: Entity[Key]) => boolean): ValidatorFn;
 

@@ -1,7 +1,7 @@
 /**
 Simplifies a type while including and/or excluding certain types from being simplified. Useful to improve type hints shown in editors. And also to transform an interface into a type to aide with assignability.
 
-This type is **experimental** and was introduced as a result of this {@link https://github.com/sindresorhus/type-fest/issues/436 issue}. It should be used with caution.
+This type is **experimental** and was introduced as a result of this {@link https://github.com/sindresorhus/type-verve/issues/436 issue}. It should be used with caution.
 
 @internal
 @experimental
@@ -17,7 +17,7 @@ export type ConditionalSimplify<Type, ExcludeType = never, IncludeType = unknown
 /**
 Recursively simplifies a type while including and/or excluding certain types from being simplified.
 
-This type is **experimental** and was introduced as a result of this {@link https://github.com/sindresorhus/type-fest/issues/436 issue}. It should be used with caution.
+This type is **experimental** and was introduced as a result of this {@link https://github.com/sindresorhus/type-verve/issues/436 issue}. It should be used with caution.
 
 See {@link ConditionalSimplify} for usages and examples.
 

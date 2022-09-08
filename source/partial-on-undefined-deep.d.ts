@@ -23,7 +23,7 @@ Use-cases:
 
 @example
 ```
-import type {PartialOnUndefinedDeep} from 'type-fest';
+import type {PartialOnUndefinedDeep} from 'type-verve';
 
 interface Settings {
 	optionA: string;

@@ -38,7 +38,7 @@ Note: This can't detect `NaN`, please upvote [this issue](https://github.com/mic
 
 @example
 ```
-import type {Finite} from 'type-fest';
+import type {Finite} from 'type-verve';
 
 declare function setScore<T extends number>(length: Finite<T>): void;
 ```
@@ -55,7 +55,7 @@ Use-case: Validating and documenting parameters.
 
 @example
 ```
-import type {Integer} from 'type-fest';
+import type {Integer} from 'type-verve';
 
 declare function setYear<T extends number>(length: Integer<T>): void;
 ```
@@ -77,7 +77,7 @@ Use-case: Validating and documenting parameters.
 
 @example
 ```
-import type {Float} from 'type-fest';
+import type {Float} from 'type-verve';
 
 declare function setPercentage<T extends number>(length: Float<T>): void;
 ```
@@ -138,7 +138,7 @@ Use-case: Validating and documenting parameters.
 
 @example
 ```
-import type {NonNegative} from 'type-fest';
+import type {NonNegative} from 'type-verve';
 
 declare function setLength<T extends number>(length: NonNegative<T>): void;
 ```
@@ -160,7 +160,7 @@ Use-case: Validating and documenting parameters.
 
 @example
 ```
-import type {NonNegativeInteger} from 'type-fest';
+import type {NonNegativeInteger} from 'type-verve';
 
 declare function setLength<T extends number>(length: NonNegativeInteger<T>): void;
 ```

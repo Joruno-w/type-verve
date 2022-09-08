@@ -18,7 +18,7 @@ This can be useful when, for example, converting a camel-cased object property t
 
 @example
 ```
-import type {ScreamingSnakeCase} from 'type-fest';
+import type {ScreamingSnakeCase} from 'type-verve';
 
 const someVariable: ScreamingSnakeCase<'fooBar'> = 'FOO_BAR';
 ```

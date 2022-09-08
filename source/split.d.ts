@@ -5,7 +5,7 @@ Use-case: Defining the return type of a method like `String.prototype.split`.
 
 @example
 ```
-import type {Split} from 'type-fest';
+import type {Split} from 'type-verve';
 
 declare function split<S extends string, D extends string>(string: S, separator: D): Split<S, D>;
 

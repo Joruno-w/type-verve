@@ -7,7 +7,7 @@ When you annotate something as the type `{}`, it can be anything except `null` a
 
 @example
 ```
-import type {EmptyObject} from 'type-fest';
+import type {EmptyObject} from 'type-verve';
 
 // The following illustrates the problem with `{}`.
 const foo1: {} = {}; // Pass
@@ -22,7 +22,7 @@ const bar3: EmptyObject = []; // Fail
 const bar4: EmptyObject = {a: 1}; // Fail
 ```
 
-Unfortunately, `Record<string, never>`, `Record<keyof any, never>` and `Record<never, never>` do not work. See {@link https://github.com/sindresorhus/type-fest/issues/395 #395}.
+Unfortunately, `Record<string, never>`, `Record<keyof any, never>` and `Record<never, never>` do not work. See {@link https://github.com/sindresorhus/type-verve/issues/395 #395}.
 
 @category Object
 */
@@ -33,7 +33,7 @@ Returns a `boolean` for whether the type is strictly equal to an empty plain obj
 
 @example
 ```
-import type {IsEmptyObject} from 'type-fest';
+import type {IsEmptyObject} from 'type-verve';
 
 type Pass = IsEmptyObject<{}>; //=> true
 type Fail = IsEmptyObject<[]>; //=> false

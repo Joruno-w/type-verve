@@ -5,7 +5,7 @@ This can be useful when you have a fixed set of allowed values and want a type d
 
 @example
 ```
-import type {TupleToUnion} from 'type-fest';
+import type {TupleToUnion} from 'type-verve';
 
 const destinations = ['a', 'b', 'c'] as const;
 

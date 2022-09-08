@@ -40,7 +40,7 @@ An interface cannot be structurally compared to `JsonValue` because an interface
 
 @example
 ```
-import type {Jsonify} from 'type-fest';
+import type {Jsonify} from 'type-verve';
 
 interface Geometry {
 	type: 'Point' | 'Polygon';
@@ -70,7 +70,7 @@ Non-JSON values such as `Date` implement `.toJSON()`, so they can be transformed
 
 @example
 ```
-import type {Jsonify} from 'type-fest';
+import type {Jsonify} from 'type-verve';
 
 const time = {
 	timeValue: new Date()

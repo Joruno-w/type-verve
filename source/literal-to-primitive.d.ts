@@ -5,7 +5,7 @@ Use-case: Working with generic types that may be literal types.
 
 @example
 ```
-import type {LiteralToPrimitive} from 'type-fest';
+import type {LiteralToPrimitive} from 'type-verve';
 
 // No overloads needed to get the correct return type
 function plus<T extends number | bigint | string>(x: T, y: T): LiteralToPrimitive<T> {

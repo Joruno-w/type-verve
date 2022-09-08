@@ -9,7 +9,7 @@ This type is a workaround for [Microsoft/TypeScript#29729](https://github.com/Mi
 
 @example
 ```
-import type {LiteralUnion} from 'type-fest';
+import type {LiteralUnion} from 'type-verve';
 
 // Before
 

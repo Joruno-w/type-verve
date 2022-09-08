@@ -19,7 +19,7 @@ Use-cases:
 
 @example
 ```
-import {ReadonlyTuple} from 'type-fest';
+import {ReadonlyTuple} from 'type-verve';
 
 type FencingTeam = ReadonlyTuple<string, 3>;
 

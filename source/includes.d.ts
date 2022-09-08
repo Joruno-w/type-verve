@@ -7,7 +7,7 @@ This can be useful if another type wants to make a decision based on whether the
 
 @example
 ```
-import type {Includes} from 'type-fest';
+import type {Includes} from 'type-verve';
 
 type hasRed<array extends any[]> = Includes<array, 'red'>;
 ```
